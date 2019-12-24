@@ -151,5 +151,5 @@ REST_FRAMEWORK = {
     # 默认权限类
     "DEFAULT_PERMISSION_CLASSES": ["utils.permission.MyPermission"],
     # 默认频率类
-    "DEFAULT_THROTTLE_CLASSES": ["utils.permission.MyThrottle"]
+    "DEFAULT_THROTTLE_CLASSES": ["utils.throttle.MyThrottle"]
 }
